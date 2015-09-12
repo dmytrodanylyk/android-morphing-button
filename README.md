@@ -11,7 +11,17 @@ You can easily extend `MorphingButton` to add your own behaviour. Below is examp
 ### Sample code
 
 ```java
-
+MorphingButton btnMorph = (MorphingButton) findViewById(R.id.btnMorph);
+// inside on click event
+MorphingButton.Params circle = MorphingButton.Params.create()
+        .duration(500)
+        .cornerRadius(dimen(R.dimen.mb_height_56)) // 56 dp
+        .width(dimen(R.dimen.mb_height_56)) // 56 dp
+        .height(dimen(R.dimen.mb_height_56)) // 56 dp
+        .color(color(R.color.green)) // normal state color
+        .colorPressed(color(R.color.green_dark)) // pressed state color
+        .icon(R.drawable.ic_done); // icon
+btnMorph.morph(circle);
 ```
 
 ### Wiki

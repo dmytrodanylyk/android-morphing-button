@@ -11,6 +11,7 @@ You can easily extend `MorphingButton` to add your own behaviour. Below is examp
 ### Sample code
 
 ```java
+// sample demonstrate how to morph button to green circle with icon
 MorphingButton btnMorph = (MorphingButton) findViewById(R.id.btnMorph);
 // inside on click event
 MorphingButton.Params circle = MorphingButton.Params.create()

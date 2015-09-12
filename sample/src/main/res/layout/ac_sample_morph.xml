@@ -6,13 +6,13 @@
               android:gravity="center"
               tools:context="${relativePackage}.${activityClass}">
 
-    <com.dd.morphingbutton.impl.MorphingButton
+    <com.dd.morphingbutton.MorphingButton
             android:id="@+id/btnMorph1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/mb_white"/>
 
-    <com.dd.morphingbutton.impl.MorphingButton
+    <com.dd.morphingbutton.MorphingButton
             android:id="@+id/btnMorph2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

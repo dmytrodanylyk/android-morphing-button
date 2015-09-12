@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:gravity="center"
+              tools:context="${relativePackage}.${activityClass}">
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mb_height_56">
+
+        <com.dd.morphingbutton.impl.IndeterminateProgressButton
+                android:id="@+id/btnMorph1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/mb_white"
+                android:layout_gravity="center"/>
+    </FrameLayout>
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mb_height_56"
+            android:layout_marginTop="16dp">
+
+        <com.dd.morphingbutton.impl.IndeterminateProgressButton
+                android:id="@+id/btnMorph2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/mb_white"
+                android:layout_gravity="center"/>
+
+    </FrameLayout>
+
+</LinearLayout>

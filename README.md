@@ -1,10 +1,18 @@
 ### Description
 
-Android Button which can morph from one shape to another.
+Android button which can morph from one shape to another.
 
-![](screenshots/intro1.gif)
+<img src="screenshots/intro1.gif" width="380" />
 
-![](screenshots/intro2.gif)
+You can easily extend `MorphingButton` to add your own behaviour. Below is example of `LinearProgressButton` which extends `MorphingButton`.
+
+<img src="screenshots/intro2.gif" width="380" />
+
+### Sample code
+
+```java
+
+```
 
 ### Wiki
 
@@ -21,7 +29,7 @@ dependencies {
 }
 ```
 
-License
+### License
 
 ```
 The MIT License (MIT)

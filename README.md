@@ -35,14 +35,13 @@ btnMorph.morph(circle);
 The lib is available on https://jitpack.io.
 
 ```
-
 repositories {
     jcenter()
     maven { url "https://jitpack.io" }
 }
 
 dependencies {
-    compile 'com.github.dmytrodanylyk:android-morphing-button:ceae91b847'
+    compile 'com.github.dmytrodanylyk:android-morphing-button:98a4986e56' // commit hash
 }
 ```
 

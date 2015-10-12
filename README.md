@@ -13,11 +13,17 @@ Android Button which can morph from one shape to another.
 
 ### Integration
 
-The lib is NOT YET available on Maven Central.
+The lib is available on https://jitpack.io.
 
 ```
+
+repositories {
+    jcenter()
+    maven { url "https://jitpack.io" }
+}
+
 dependencies {
-    compile 'com.github.dmytrodanylyk.android-morphing-button:library:1.0.0'
+    compile 'com.github.dmytrodanylyk:android-morphing-button:ceae91b847'
 }
 ```
 

@@ -1,10 +1,29 @@
 ### Description
 
-Android Button which can morph from one shape to another.
+Android button which can morph from one shape to another.
 
-![](screenshots/intro1.gif)
+<img src="screenshots/intro1.gif" width="380" />
 
-![](screenshots/intro2.gif)
+You can easily extend `MorphingButton` to add your own behaviour. Below is example of `LinearProgressButton` which extends `MorphingButton`.
+
+<img src="screenshots/intro2.gif" width="380" />
+
+### Sample code
+
+```java
+// sample demonstrate how to morph button to green circle with icon
+MorphingButton btnMorph = (MorphingButton) findViewById(R.id.btnMorph);
+// inside on click event
+MorphingButton.Params circle = MorphingButton.Params.create()
+        .duration(500)
+        .cornerRadius(dimen(R.dimen.mb_height_56)) // 56 dp
+        .width(dimen(R.dimen.mb_height_56)) // 56 dp
+        .height(dimen(R.dimen.mb_height_56)) // 56 dp
+        .color(color(R.color.green)) // normal state color
+        .colorPressed(color(R.color.green_dark)) // pressed state color
+        .icon(R.drawable.ic_done); // icon
+btnMorph.morph(circle);
+```
 
 ### Wiki
 
@@ -27,7 +46,7 @@ dependencies {
 }
 ```
 
-License
+### License
 
 ```
 The MIT License (MIT)

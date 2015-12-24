@@ -98,6 +98,12 @@ public class MorphingButton extends Button {
                     @Override
                     public void onAnimationEnd() {
                         finalizeMorphing(params);
+                        setClickable(true);
+                    }
+
+                    @Override
+                    public void onAnimationStart() {
+                        setClickable(false);
                     }
                 });
 

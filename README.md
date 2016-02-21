@@ -34,7 +34,7 @@ btnMorph.morph(circle);
 
 The lib is available on https://jitpack.io.
 
-```
+```groovy
 repositories {
     jcenter()
     maven { url "https://jitpack.io" }
@@ -50,7 +50,7 @@ dependencies {
 ```
 The MIT License (MIT)
 
-Copyright (c) 2015 Danylyk Dmytro
+Copyright (c) 2016 Danylyk Dmytro
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

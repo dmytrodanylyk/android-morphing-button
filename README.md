@@ -1,4 +1,5 @@
 [![](https://jitpack.io/v/dmytrodanylyk/android-morphing-button.svg)](https://jitpack.io/#dmytrodanylyk/android-morphing-button)
+## Description [Android morphing button]
 
 ### Description for the android-morphing Button
 
@@ -10,7 +11,7 @@ You can easily extend `MorphingButton` to add your own behaviour. Below is examp
 
 <img src="screenshots/intro2.gif" width="380" />
 
-### Sample code
+### Sample code:-
 
 ```java
 // sample demonstrate how to morph button to green circle with icon
@@ -27,12 +28,12 @@ MorphingButton.Params circle = MorphingButton.Params.create()
 btnMorph.morph(circle);
 ```
 
-### Wiki
+### Wikipedia:-
 
 - Home // TODO
 - User Guide // TODO
 
-### Integration
+### Integration:-
 
 The lib is available on https://jitpack.io.
 

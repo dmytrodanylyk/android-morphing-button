@@ -1,4 +1,4 @@
-### Description
+## Description [Android morphing button]
 
 Android button which can morph from one shape to another.
 
@@ -8,7 +8,7 @@ You can easily extend `MorphingButton` to add your own behaviour. Below is examp
 
 <img src="screenshots/intro2.gif" width="380" />
 
-### Sample code
+### Sample code:-
 
 ```java
 // sample demonstrate how to morph button to green circle with icon
@@ -25,12 +25,12 @@ MorphingButton.Params circle = MorphingButton.Params.create()
 btnMorph.morph(circle);
 ```
 
-### Wiki
+### Wikipedia:-
 
 - Home // TODO
 - User Guide // TODO
 
-### Integration
+### Integration:-
 
 The lib is available on https://jitpack.io.
 

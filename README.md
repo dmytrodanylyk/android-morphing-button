@@ -1,6 +1,7 @@
 ### Description
 
 Android button which can morph from one shape to another.
+A morph is a word segment that represents one morpheme
 
 <img src="screenshots/intro1.gif" width="380" />
 

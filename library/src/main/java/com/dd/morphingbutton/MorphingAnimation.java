@@ -8,6 +8,8 @@ public class MorphingAnimation {
 
     public interface Listener {
         void onAnimationEnd();
+
+        void onAnimationStart();
     }
 
     public static class Params {
@@ -147,6 +149,9 @@ public class MorphingAnimation {
             }
         });
         animatorSet.start();
+        if (mParams.animationListener != null) {
+            mParams.animationListener.onAnimationStart();
+        }
     }
 
 }

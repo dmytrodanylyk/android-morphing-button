@@ -1,8 +1,9 @@
 package com.dd.morphingbutton;
 
 import android.animation.*;
-import android.support.annotation.NonNull;
 import android.view.ViewGroup;
+
+import androidx.annotation.NonNull;
 
 public class MorphingAnimation {
 

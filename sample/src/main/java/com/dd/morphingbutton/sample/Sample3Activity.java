@@ -3,8 +3,10 @@ package com.dd.morphingbutton.sample;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.view.View;
+
+import androidx.annotation.NonNull;
+
 import com.dd.morphingbutton.impl.LinearProgressButton;
 import com.dd.morphingbutton.MorphingButton;
 import com.dd.morphingbutton.utils.ProgressGenerator;
@@ -23,7 +25,7 @@ public class Sample3Activity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ac_sample_linear);
 
-        final LinearProgressButton btnMorph1 = (LinearProgressButton) findViewById(R.id.btnMorph1);
+        final LinearProgressButton btnMorph1 = findViewById(R.id.btnMorph1);
         btnMorph1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -31,7 +33,7 @@ public class Sample3Activity extends BaseActivity {
             }
         });
 
-        final LinearProgressButton btnMorph2 = (LinearProgressButton) findViewById(R.id.btnMorph2);
+        final LinearProgressButton btnMorph2 = findViewById(R.id.btnMorph2);
         btnMorph2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -1,6 +1,6 @@
 ### Description for the android-morphing Button
 
-Android button which can morph from one shape to another.
+Android button which can morph from one shape to another, also with the feature of changing color.
 
 <img src="screenshots/intro1.gif" width="380" />
 

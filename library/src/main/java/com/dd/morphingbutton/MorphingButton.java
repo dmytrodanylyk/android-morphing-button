@@ -6,17 +6,19 @@ import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
 import android.graphics.drawable.StateListDrawable;
 import android.os.Build;
-import android.support.annotation.DrawableRes;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.util.StateSet;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 
-public class MorphingButton extends Button {
+import androidx.annotation.DrawableRes;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
+import androidx.core.content.ContextCompat;
+
+public class MorphingButton extends AppCompatButton {
 
     private Padding mPadding;
     private int mHeight;
@@ -199,7 +201,6 @@ public class MorphingButton extends Button {
         return drawable;
     }
 
-    @SuppressWarnings("deprecation")
     private void setBackgroundCompat(@Nullable Drawable drawable) {
         if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.JELLY_BEAN) {
             setBackgroundDrawable(drawable);
@@ -213,7 +214,7 @@ public class MorphingButton extends Button {
         post(new Runnable() {
             @Override
             public void run() {
-                Drawable drawable = getResources().getDrawable(icon);
+                Drawable drawable = ContextCompat.getDrawable(getContext(), icon);
                 int padding = (getWidth() / 2) - (drawable.getIntrinsicWidth() / 2);
                 setCompoundDrawablesWithIntrinsicBounds(icon, 0, 0, 0);
                 setPadding(padding, 0, 0, 0);

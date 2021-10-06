@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/dmytrodanylyk/android-morphing-button.svg)](https://jitpack.io/#dmytrodanylyk/android-morphing-button)
+
 ### Description for the android-morphing Button
 
 Android button which can morph from one shape to another, also with the feature of changing color.
@@ -41,7 +43,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.dmytrodanylyk:android-morphing-button:98a4986e56' // commit hash
+    compile 'com.github.dmytrodanylyk:android-morphing-button:1.0'
 }
 ```
 

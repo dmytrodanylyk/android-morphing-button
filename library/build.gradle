@@ -4,6 +4,7 @@ plugins {
 }
 
 android {
+    namespace "com.dd.morphingbutton"
     defaultConfig {
         minSdkVersion 14
         compileSdk 34
